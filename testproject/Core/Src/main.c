@@ -98,8 +98,8 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
-	  HAL_Delay(500);
+	  HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);	//blinking LED
+	  HAL_Delay(500);								//delay 500ms
   }
   /* USER CODE END 3 */
 }
